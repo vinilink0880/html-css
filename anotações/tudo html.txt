@@ -1,0 +1,132 @@
+***primeiros passos***
+!
+
+
+***importantes***
+<!-- -->  -  comentario
+class, id, div  -  estao nos ex019 e ex020
+
+
+
+***atalhos do vscode para facilitar***
+shift + alt + F  -  organiza as linhas como elas devem estar
+shift + alt + setas cima/baixo  -  copia tudo que for selecionado a quantidade de vezes que clicar para cima ou baixo
+ctrl + d  -  ao selecionar um coisa e depois dar esse comando ele ira selecionar a palavra escolhida 
+quantas vezes ela aparece a frente da primeira selecionada, assim voce pode modificar todas de uma vez.
+ctrl + b  -  abre e fecha aba lateral onde estao os arquivos .html
+Ctrl + g  -  Para ir para uma linha no arquivo
+Ctrl + backspace  -  excluir uma palavra anterior 
+crtl + x  -  para excluir uma linha completa
+ctrl + alt + setas/cima/baixo -  duplica os cursores quantas vezes voce clicar nas setas
+f2  -  renomeia as tag selecionada na abertura e no fechamento
+alt + setas/cima/baixo  -  movimenta linha
+shift + alt + mause  -  seleciona colunas
+
+duvidadas sobre os comandos acesse o site  -  https://alvarezsolucoesdigitais.com/programacao/20-atalhos-de-vs-code-para-codificacao-mais-rapida/
+
+
+***listas***
+ol  -  ordenered list/ usa-se o termo 'type' para escolher o marcador da lista (1 A a I i) e 'start' para escolher onde ela deve começar(caso escolha 2 sera(2 B b II ii)). 
+ul  -  unordered list / usa somente o 'type'para escolher entre (circle, disc, square)
+li  -  list  /  normalmente fica dentro das ol/ul
+dl  -  definition list
+dt  -  definition term/dentro da dl
+dd  -  definition description/abaixo da dt
+
+
+
+***tags de sentido***
+h1,h2,h3...h6  -  titulos 
+p  -  paragrafos  
+br  -  quebra de texto
+adress  -  endereço
+strong  -  destaque
+em  -  enfase
+mark  -  marcaçao/como um marca texto
+small  -  deixar um texto menor 
+ins  -  enfase e indicar que foi adicionado depois
+del  -  dever ser lido mas nao considerado
+sup  -  sobrescrito x2(deixar o 2 menor e encima como ao quadrado)
+sub  -  subscrito h20(deixar o 2 menor e embaixo 
+code  -  codigo-fonte/colocar o mesmo espaçamento para todas as letras
+pre  -  pre-formataçao/para considerar todos os espaçamentos das tags
+q  -  citaçoes('algo que alguem disse')
+blockquote  -  citaçoes completas
+abbr  -  abreviaçoes
+
+
+
+***link***
+a  -  usado junto o 'target' para o link sobrescrever a pagina ou abrir outra guia e 'rel' para dizer se é externo ou nao(na muda muita coisa o rel)
+a  -  (download)  para usar um link para download precisa colocar o 'type' e escolher onde esta o local que esta o arquivo a ser baixado
+s
+
+
+***tags de forma***
+b  -  negrito
+i  -  italico
+u  -  sublinhado
+bdo  -  inverter texto(necessario informar a direçao rtl ou ltr)
+
+
+
+***tags de imagens***
+img  -  (crtl + space)=seleciona as imagens nas pastas onde esta o index
+(imagens dinamica)
+pictures  -  criar essa tag e dentro dela adicionar as tag img e source:media:type
+source:media:type  -  deve mudar o min-whdth para max-width 
+os locais do arquivos precisao ser colocado manualmente
+
+
+***tags de audio***
+audio  -  usar essa tag e dentro dela adicionar um source:src  / necessario colocar 'controls' para aparecer o player
+source:src  -  colocar o audio e type dele
+
+
+
+***tags de videos***
+video  -  usar essa tag e dentro dela adicionar um source:src  / necessario colocar 'controls' para aparecer o player
+source:src  -  colocar o video e type dele
+
+
+***colocar favicon = icone do site ao lado do titulo***
+link:favicon - o arquivo deve estar como .ico  
+é colocado com os itens do head
+
+ 
+
+***tags de simbolos***
+&lt;  -  <  sinal menor/less than
+&gt;  -  > sinal maior/greater than
+&nbsp;  -  Espaço em branco 
+&reg;  -  ® marca resitrada
+&copy;  -  © Copyright 
+&trade;  -  ™ Trade Mark 
+&euro;  -  € Euro 
+&pound;  -  £ Libra (pound) 
+&yen;  -  ¥ Yen 
+&cent;  -  ¢ Cent 
+&empty;  -  ∅ Vazio 
+&sum;  -  Σ Soma 
+&Delta;  -  Δ Delta 
+&larr;  -  ← Seta esquerda 
+&uarr;  -  ↑ Seta acima 
+&rarr;  -  → Seta direita 
+&darr;  -  ↓ Seta baixo 
+
+
+***tags de emojis***
+&#x + o codigo do emoji
+
+
+***direitos de imagem/ formatos de imagens***
+
+
+
+
+
+
+
+
+
+

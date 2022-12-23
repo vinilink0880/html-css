@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grouping tags</title>
+    <style>
+body{
+    font-family: sans-serif;
+    background-image: ;
+}
+
+h1{
+    box-shadow: inset 1px 1px 7px 2px black;
+}
+
+header{
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    margin: 10px;
+}
+
+nav{
+    background-color: rgb(87, 87, 81);
+    padding: 3px;
+    text-decoration: none;
+    box
+}
+
+nav > a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    margin-right: 30px;
+    
+}
+
+nav > a:hover{
+    text-decoration: underline;
+}
+
+main{
+    background-color: rgb(255, 255, 255);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 9px 1px black;
+}
+
+article{
+    background-color: rgb(198, 198, 198);
+    padding-bottom: 20px;
+}
+
+article > aside{
+    background-color: rgb(160, 160, 160);
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 4px;
+    margin: 0px; 
+}
+
+footer > p {
+    margin: 0px;
+}
+div#bola{
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    border-radius: 50px;
+}
+    </style>
+</head>
+<body>
+  <header>
+    <h1>meu site</h1>
+    <nav>
+        <a href="#">link</a>
+        <a href="#">link</a>
+    </nav>
+  </header>
+  <main>
+    <section id="assuntos">
+        <p>esporte politica e tecnologia</p>
+    </section>
+    <section id="noticias">
+        <article>
+            <h2>noticias sobre o brasil</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat ad perferendis cum nihil vel vero odit repellendus numquam tempore inventore, beatae fuga natus ratione? Cum officiis provident voluptates perspiciatis. Quae!</p>
+            <aside>
+                <p>artigo escrito por jose</p>
+            </aside>
+        </article>
+        <article>
+            
+        </article>
+    </section>
+  </main>
+  <footer>
+    <p>desenvolvido pelo curso em video</p>
+  </footer>
+  <div id="bola"></div>
+</body>
+</html>

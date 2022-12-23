@@ -1,0 +1,114 @@
+@charset "UTF-8";
+
+body{
+    margin: 0px;
+    background-color: #6EBC8F;
+}
+
+main{
+    box-shadow: 2px 2px 5px 1px;
+}
+header{
+   background-image: linear-gradient(to bottom, #3CD781, #104127);
+   padding: 10px 10px 10px 10px;
+}
+
+#main1{
+    background-color: white;
+    margin: 0px 100px auto 100px;
+    padding-top: 1px;
+
+}
+
+section#cabeçalho > h1 {
+    text-align: center;
+    font-size: 32px;
+    color: white;
+}
+
+section#cabeçalho > article {
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: rgba(255, 255, 255, 0.71);
+}
+
+nav#cabeçalho > a {
+    text-decoration: none ;
+    color: white;
+    margin-right: 20px;
+    
+}
+
+a:hover{
+    box-shadow: inset 1px 1px 1px 0px white;
+}
+#conteudo{
+    color: rgb(0, 103, 0);
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+section > article > p{
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: justify;
+    text-indent:30px;
+}
+
+#main1 > h2{
+    color: green;
+    background-image: linear-gradient(to right, rgba(0, 128, 0, 0.152), white);
+    font-weight: bold;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left:  10px; ;
+    
+}
+#img {
+    width: 290px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#video{
+border: 20px solid #104127;
+
+}
+#main2 {
+    background-color: white;
+    margin: 0px 100px auto 100px;
+    padding-top: 10px ;
+
+}
+
+#main2 > h1 {
+    font-size: 20px;
+    color: white;
+    background-color: #0dba5ed7;
+    margin: 0px 10px 0px 10px;
+    padding: 10px 10px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+#main2 > section #section2{
+    background-color: #b3fdd2;
+    margin: 0px 10px 10px 10px;
+    padding: 1px;
+   border-radius: 0px 0px 10px 10px;
+}
+
+footer{
+    padding: 0px 1px 1px 1px;
+    margin: 10px 0px 0px 0px;
+    background-color: #104127;
+    text-align: center;
+}
+footer > p{
+    margin: 1px;
+    padding: 1px;
+}
+#ultimop{
+    padding-bottom: 20px;
+}
+
+

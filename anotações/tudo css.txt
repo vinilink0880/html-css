@@ -1,0 +1,58 @@
+EX016 TEM UM EXEMPLO COM VARIAS TAGS DE CSS
+ex017 tambem
+
+
+********css como usar estilos inline - vai estar em maiusculo so o importante para poder diferenciar***
+<body STYLE="AS CONFIGURAÇOES QUE QUISER">
+    <h1 STYLE="AS CONFIGURAÇOES QUE QUISER">capitulo 1</h1>
+    <h2 STYLE="AS CONFIGURAÇOES QUE QUISER">capitulo 1.1</h2>
+utiliza o mesmo parametro para as demais tags
+
+********************************************************************************************************
+
+
+********css como utilizar estilos locais/internos***
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>estilos locais/internos</title>
+    <style>
+        body{
+            background-color: rgba(0, 0, 0, 0.477);
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 40px;
+        }
+        h1 {
+            color: rgba(250, 235, 215, 0.925);
+        }
+        h2 {
+            color: rgba(250, 235, 215, 0.679);
+        }
+        p {
+            color: rgb(250, 235, 215);
+        }
+
+o style fica no head, e de la voce vc faz as configuraçoes onde escolher h1,h2...h6, p, body e
+onde achar necessario sem ter que fazer 1 por 1.
+
+******************************************************************************************************
+
+
+********css como utilizar links externos***
+-NA PARTE DE HEAD VC DEVE ADICIONAR A TAG link:css
+-LA VOCE CRIARA UMA PAGINA NOVA COM O NOME QUE VOCE QUISER MAS DE SER .css
+-LA NESSA PAGINA VOCE COLOCARA OS ESTILOS QUE QUISER
+-PODE COLOCAR MAIS DE UMA PAGINA COM ESTILOS, OU SEJA DUAS PAGINAS .css
+-NA PAGINA .css VOCE DEVE ACRESCENTAR @charset "UTF-8"; DA FORMA COMO ESTA AI
+ISSO IRA GARANTIR QUE DE ERRO POR CONTA DA ESCRITA
+
+**************************************************************************************************
+
+
+********tags para css mais usadas e como usar elas********
+linear-gradiant  -  para usar degrade de cores exemplo    linear-gradient(to (aqui pode usar todas as direçoes), #5178BB, #2F366D, #344557);
+
+
+
+******tags importantes css******
