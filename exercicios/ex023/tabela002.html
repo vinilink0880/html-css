@@ -13,6 +13,7 @@
         table {
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
 
         td, th {
@@ -25,9 +26,27 @@
             color: white;
         }
 
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: gray;
+        }
+
         td.num {
             text-align: right;
         }
+
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: grey;
+        }
+
+        tbody > tr:nth-child(2n) {
+            background-color: gray;
+            
+        }/*efeito zebrado com pseudoclasse :nth-child(n)*/
     </style>
 </head>
 <body>
@@ -45,10 +64,11 @@
     -->
 
     <table>
+        <caption>populaçao das unidades federativas</caption>
         <thead>
             <tr>
-                <th>estado</th>
-                <th>populaçao</th>
+                <th scope="col">estado</th>
+                <th scope="col" style="width: 50px;">populaçao</th>
             </tr>
         </thead>
 
@@ -165,7 +185,7 @@
         </tbody>
 
         <tfoot>
-            <th>total de habitantes</th>
+            <th scope="row">total de habitantes</th>
             <td class="num">00000</td>
         </tfoot>
     </table>
