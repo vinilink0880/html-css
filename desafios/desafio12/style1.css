@@ -70,7 +70,7 @@ section.imagem {
 
 section.imagem p {
     display: inline-block;
-    background-color: rgba(255, 255, 255, 0.175);
+    background-color: rgba(0, 0, 0, 0.175);
 }
 
 section.normal {
@@ -89,4 +89,23 @@ section#img1 {
 
 section#img2 {
     background-image: url(imagens/background002.jpg);
+}
+
+footer {
+    font-family: var(--font2);
+    text-align: center;
+    color: white;
+    background-color: black;
+    font-size: 1.2em;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-shadow: 1px 1px 10px white;
+    
 }
